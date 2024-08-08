@@ -19,7 +19,7 @@ type Crypto struct{}
 
 // Ensure the module is registered
 func init() {
-    modules.Register("k6/x/crypto", new(Crypto))
+    modules.Register("k6/x/cryptography", new(Crypto))
 }
 
 // CreateCipheriv initializes a new cipher
